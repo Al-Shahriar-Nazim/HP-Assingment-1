@@ -52,3 +52,88 @@ body {
     }
   }
 }
+/* hero section start */
+.section-all-content {
+  margin-top: 30px;
+
+  & .hero-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+
+  }
+  & .hero-part-2 {
+    background-color: #ffffff;
+    width: 1100px;
+    position: absolute;
+    top: 360px;
+    margin-left: 280px;
+    height: 350px;
+    border-radius: 10px;
+  }
+  & .head-line {
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  & .account {
+    text-align: center;
+  }
+  & .account select {
+    width: 230px;
+    padding: 10px;
+    background-color: #ececec;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    border-radius: 9px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 22px;
+  }
+  & .finish {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    margin-left: 80px;
+  }
+  & .how {
+    width: 700px;
+    background-color: #ececec;
+    padding: 7px;
+    border-radius: 10px;
+    font-size: 22px;
+  }
+  & .how:hover {
+    background-color: #8b8383;
+  }
+  & h3 {
+    width: 200px;
+    padding: 8px;
+    background-color: #00ebc7;
+    border-radius: 10px;
+    font-size: 22px;
+  }
+  & h3:hover {
+    background-color: #ddd;
+  }
+}
+.zapper{
+  position: absolute;
+  font-size: 20px;
+  top: 800px;
+  left: 730px;
+ color: #C6C7C6;
+border: 1px solid #C6C7C6;
+padding: 10px;
+border-radius: 40px;
+}
+.zapper:hover{
+    background-color: #ddd;
+    color: black;
+}
