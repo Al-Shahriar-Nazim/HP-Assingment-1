@@ -56,14 +56,13 @@ body {
 .section-all-content {
   margin-top: 30px;
 
-  & .hero-pic{
+  & .hero-pic {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: auto;
     position: relative;
-
   }
   & .hero-part-2 {
     background-color: #ffffff;
@@ -123,17 +122,89 @@ body {
     background-color: #ddd;
   }
 }
-.zapper{
+.zapper {
   position: absolute;
   font-size: 20px;
   top: 800px;
   left: 730px;
- color: #C6C7C6;
-border: 1px solid #C6C7C6;
-padding: 10px;
-border-radius: 40px;
+  color: #c6c7c6;
+  border: 1px solid #c6c7c6;
+  padding: 10px;
+  border-radius: 40px;
 }
-.zapper:hover{
-    background-color: #ddd;
-    color: black;
+.zapper:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Responsive in css */
+@media (max-device-width: 767px) {
+  .nav-all-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .nav-part-1st {
+    margin-left: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .nav-part-2nd {
+    display: none;
+  }
+  .nav-part-3rd img {
+    display: none;
+    margin-top: 900px;
+  }
+
+  /* section-all-content */
+  .section-all-content {
+    & .hero-pic img{
+      width: 100%;
+    }
+    .hero-part-2 {
+      width: 100%;
+      top: 180px;
+      margin-left: 0px;
+      height: 600px;
+    }
+  & .head-line h2 {
+      font-size: 24px;
+      padding: 10px;
+      text-align: center;
+      margin-top: 5px;
+      margin-bottom: 10px;
+    }
+    & .account select {
+      width: 230px;
+      padding: 10px;
+      margin-left: 10px;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      font-size: 18px;
+    }
+    & .finish {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      text-align: center;
+      margin-left: 80px;
+    }
+    & .how {
+      width:230px;
+      padding: 7px;
+      font-size: 18px;
+    }
+    & h3 {
+      width: 230px;
+      padding: 8px;
+      font-size: 18px;
+    }
+    .zapper {
+      top: 800px;
+      left: 150px;
+      text-align: center;
+    }
+  }
 }
