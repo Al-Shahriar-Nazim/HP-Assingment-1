@@ -208,11 +208,70 @@ body {
     padding: 5px;
     border-radius: 40px;
     margin: auto;
+    margin-bottom: 40px;
   }
   & .features-see p:hover {
     background-color: #c6c7c6;
   }
   /* text-align: center; */
+}
+
+/* buy-and-sell-section-all-content  */
+.buy-and-sell-section-all-content {
+  width: 90%;
+  background-color: #f8f8f8;
+  margin-left: 100px;
+  display: flex;
+  & .top-hr {
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+  & .botom-hr {
+    width: 90%;
+    margin-left: 100px;
+  }
+  & .buy-first-sec {
+    & h3 {
+      margin-left: 130px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      width: 100%;
+      font-size: 40px;
+      font-weight: 400;
+    }
+    & .buy-first {
+      display: flex;
+      align-items: center;
+      gap: 35px;
+      font-size: 20px;
+      font-weight: 600;
+      padding: 10px;
+      border: 1px solid black;
+      width: 80%;
+      border-radius: 20px;
+      margin-left: 130px;
+      margin-bottom: 40px;
+    }
+    & .view-button {
+      margin-top: 70px;
+      margin-bottom: 40px;
+      width: 220px;
+      text-align: center;
+      background-color: #000000;
+      color: white;
+      border-radius: 30px;
+      font-size: 25px;
+      padding: 10px;
+      margin-left: 300px;
+    }
+  }
+
+  & .vl {
+    border-left: 1px solid black;
+    height: 700px;
+    margin-left: 100px;
+  }
 }
 /* Responsive in css */
 @media (max-device-width: 767px) {
@@ -308,7 +367,7 @@ body {
   .features-section-all-content {
     width: 100%;
     margin-top: 35px;
-    margin-bottom: 400px;
+
     & .head {
       font-size: 25px;
       margin-left: 10px;
@@ -338,4 +397,54 @@ body {
     }
     /* text-align: center; */
   }
+
+  /* buy-and-sell-section-all-content  */
+.buy-and-sell-section-all-content {
+  width: 90%;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  & .top-hr {
+   display: none;
+  }
+  & .botom-hr {
+ display: none;
+  }
+  & .buy-first-sec {
+    & h3 {
+      margin-left: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-size: 30px;
+    }
+    & .buy-first {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      font-size: 16px;
+      font-weight: 300;
+      padding: 5px;
+      width: 90%;
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+    & .view-button {
+      margin-top: 30px;
+      margin-bottom: 20px;
+      width: 170px;
+      text-align: center;
+      background-color: #000000;
+      color: white;
+      border-radius: 30px;
+      font-size: 16px;
+      padding: 5px;
+      margin-left: 120px;
+    }
+  }
+
+  & .vl {
+display: none;
+
+  }
+}
 }
