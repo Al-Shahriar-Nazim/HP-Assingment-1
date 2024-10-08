@@ -273,6 +273,37 @@ body {
     margin-left: 100px;
   }
 }
+
+/* Get started section  */
+.started-section {
+  background-color: #cfbaff;
+  text-align: center;
+display: block;
+width: 90%;
+margin-left: 100px;
+margin-bottom: 40px;
+padding: 40px;
+  & .head{
+ padding-top: 100px;
+    font-size: 50px;
+    font-weight: 600;
+    word-spacing: 15px;
+    line-height: 70px;
+  }
+  & p {
+    width: 200px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    padding: 7px;
+    border-radius: 40px;
+    margin-top: 100px;
+    margin-left: 650px;
+
+  }
+}
 /* Responsive in css */
 @media (max-device-width: 767px) {
   .nav-all-content {
@@ -399,52 +430,73 @@ body {
   }
 
   /* buy-and-sell-section-all-content  */
-.buy-and-sell-section-all-content {
-  width: 90%;
-  margin-left: 10px;
-  display: flex;
-  flex-direction: column;
-  & .top-hr {
-   display: none;
-  }
-  & .botom-hr {
- display: none;
-  }
-  & .buy-first-sec {
-    & h3 {
-      margin-left: 20px;
-      margin-top: 20px;
-      margin-bottom: 20px;
-      font-size: 30px;
+  .buy-and-sell-section-all-content {
+    width: 90%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    & .top-hr {
+      display: none;
     }
-    & .buy-first {
-      display: flex;
-      align-items: center;
-      gap: 20px;
-      font-size: 16px;
-      font-weight: 300;
-      padding: 5px;
-      width: 90%;
-      margin-left: 20px;
-      margin-bottom: 20px;
+    & .botom-hr {
+      display: none;
     }
-    & .view-button {
-      margin-top: 30px;
-      margin-bottom: 20px;
-      width: 170px;
-      text-align: center;
-      background-color: #000000;
-      color: white;
-      border-radius: 30px;
-      font-size: 16px;
-      padding: 5px;
-      margin-left: 120px;
+    & .buy-first-sec {
+      & h3 {
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 30px;
+      }
+      & .buy-first {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-size: 16px;
+        font-weight: 300;
+        padding: 5px;
+        width: 90%;
+        margin-left: 20px;
+        margin-bottom: 20px;
+      }
+      & .view-button {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        width: 170px;
+        text-align: center;
+        background-color: #000000;
+        color: white;
+        border-radius: 30px;
+        font-size: 16px;
+        padding: 5px;
+        margin-left: 120px;
+      }
     }
-  }
 
-  & .vl {
-display: none;
-
+    & .vl {
+      display: none;
+    }
+  }
+  /* Get started section  */
+.started-section {
+  background-color: #cfbaff;
+width: 100%;
+margin-left: 0px;
+margin-bottom: 10px;
+padding: 10px;
+  & .head{
+ padding-top: 30px;
+    font-size: 30px;
+    word-spacing: 10px;
+    line-height: 40px;
+    text-align: center;
+  }
+  & p {
+    width: 180px;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 110px;
+margin-bottom: 400px;
   }
 }
 }
