@@ -22,6 +22,11 @@ body {
     font-weight: 600;
     color: #000000;
   }
+  & .nav-part-2nd a:hover{
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 50px;
+  }
 
   & .nav-part-3rd {
     display: flex;
