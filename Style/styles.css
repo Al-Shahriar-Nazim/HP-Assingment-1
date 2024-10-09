@@ -278,13 +278,13 @@ body {
 .started-section {
   background-color: #cfbaff;
   text-align: center;
-display: block;
-width: 90%;
-margin-left: 100px;
-margin-bottom: 40px;
-padding: 40px;
-  & .head{
- padding-top: 100px;
+  display: block;
+  width: 90%;
+  margin-left: 100px;
+  margin-bottom: 40px;
+  padding: 40px;
+  & .head {
+    padding-top: 100px;
     font-size: 50px;
     font-weight: 600;
     word-spacing: 15px;
@@ -301,9 +301,59 @@ padding: 40px;
     border-radius: 40px;
     margin-top: 100px;
     margin-left: 650px;
-
   }
 }
+
+/* footer section start */
+.footer-sec {
+  background-color: #000000;
+  padding: 30px;
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 100px;
+  width: 90%;
+  margin-top: -40px;
+
+  & .foot-1st {
+  }
+  .foot-2nd h2 {
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+  & .foot-2nd a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 32px;
+  }
+}
+.finish-footer {
+  width: 90%;
+  margin-left: 100px;
+}
+.last-footer {
+  width: 90%;
+}
+/* finish-footer-hr */
+.finish-part {
+  margin-top: 1px;
+  border: 3px solid rgb(255, 255, 255);
+  margin-left: 100px;
+  width: 90%;
+}
+/* "last-footer */
+.last-footer {
+  width: 90%;
+  margin-left: 100px;
+  margin-top: 50px;
+  font-size: 16px;
+  background-color: #000000;
+  color: white;
+  padding: 20px;
+  margin-top: -5px;
+}
+/* footer section close */
 /* Responsive in css */
 @media (max-device-width: 767px) {
   .nav-all-content {
@@ -431,7 +481,7 @@ padding: 40px;
 
   /* buy-and-sell-section-all-content  */
   .buy-and-sell-section-all-content {
-    width: 90%;
+    width: 100%;
     margin-left: 10px;
     display: flex;
     flex-direction: column;
@@ -478,25 +528,43 @@ padding: 40px;
     }
   }
   /* Get started section  */
-.started-section {
-  background-color: #cfbaff;
-width: 100%;
-margin-left: 0px;
-margin-bottom: 10px;
-padding: 10px;
-  & .head{
- padding-top: 30px;
-    font-size: 30px;
-    word-spacing: 10px;
-    line-height: 40px;
-    text-align: center;
+  .started-section {
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    padding: 10px;
+    & .head {
+      padding-top: 70px;
+      font-size: 20px;
+      word-spacing: 5px;
+      line-height: 30px;
+    }
+    & p {
+      width: 180px;
+      font-size: 20px;
+      margin-top: 30px;
+      margin-left: 30px;
+      margin-bottom: 80px;
+    }
   }
-  & p {
-    width: 180px;
-    font-size: 20px;
-    margin-top: 50px;
-    margin-left: 110px;
-margin-bottom: 400px;
+  .footer-sec {
+    padding: 15px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 0px;
+    width: 100%;
+    margin-top: -10px;
+
+    .foot-2nd h2 {
+      margin-bottom: 20px;
+    }
   }
-}
+
+  .last-footer {
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 400px;
+  }
 }
